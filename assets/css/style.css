@@ -1,0 +1,179 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h4 {
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+}
+
+p {
+    font-weight: 400;
+}
+
+/* Header */
+header {
+    background-color: #343a40;
+}
+
+header h2 {
+    font-size: 24px;
+}
+
+header nav a {
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #ff6347;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('../img/hero-bg.jpg'); /* Ganti dengan gambar hero Anda */
+    background-size: cover;
+    background-position: center;
+    color: #000; /* Mengubah warna teks menjadi hitam */
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1, .hero p, .hero a {
+    position: relative; /* Pastikan teks berada di atas overlay */
+    color: #000; /* Ubah warna teks menjadi hitam */
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero a.btn {
+    font-size: 18px;
+    padding: 10px 30px;
+    color: #fff; /* Warna teks pada tombol tetap putih */
+    background-color: #dc3545; /* Warna tombol tetap merah */
+}
+
+/* Tentang Section */
+#tentang {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#tentang p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Artis Section */
+#artis {
+    padding: 50px 0;
+}
+
+.artist-card {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.artist-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.artist-card h4 {
+    font-size: 20px;
+}
+
+.artist-card:hover {
+    transform: scale(1.05);
+}
+
+/* Tiket Section */
+#tiket {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#tiket p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#tiket a.btn {
+    font-size: 18px;
+    padding: 10px 30px;
+}
+
+/* Kontak Section */
+#kontak {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#kontak p {
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ff6347;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .artist-card img {
+        width: 120px;
+        height: 120px;
+    }
+
+    header h2 {
+        font-size: 20px;
+    }
+
+    header nav a {
+        font-size: 14px;
+    }
+}

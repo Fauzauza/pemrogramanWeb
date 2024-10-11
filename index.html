@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konser Musik Indonesia 2024 - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+        }
+
+    
+        .hero {
+            background-image: url('assets/img/background.jpeg');
+            background-position: center;
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+    
+        .artist-card {
+            background-color: #ffffff;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease;
+        }
+
+        .ticket-card {
+            transition: transform 0.2s;
+        }
+
+        .ticket-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+
+        body {
+            background: linear-gradient(135deg, #f8f9fa 25%, #e9ecef 100%);
+        }
+    </style>
+</head>
+<body>
+
+<header class="bg-dark text-white py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+        <h2>Konser Musik Indonesia 2024</h2>
+        <nav>
+            <a href="#home" class="text-white me-3">Home</a>
+            <a href="#tentang" class="text-white me-3">Tentang</a>
+            <a href="#artis" class="text-white me-3">Artis</a>
+            <a href="#tiket" class="text-white me-3">Tiket</a>
+            <a href="#kontak" class="text-white">Kontak</a>
+        </nav>
+    </div>
+</header>
+
+<section class="hero" id="home">
+    <div class="container">
+        <h1>Konser Musik Terbesar 2024</h1>
+        <p>21 Desember 2024 | DOME UMM, Malang</p>
+        <p>Rasakan pengalaman musik yang tak terlupakan bersama artis ternama.</p>
+        <a href="#tiket" class="btn btn-danger btn-lg">Beli Tiket Sekarang</a>
+    </div>
+</section>
+
+<section class="container my-5" id="tentang">
+    <h2 class="text-center">Tentang Konser</h2>
+    <p>Konser Musik Indonesia 2024 adalah acara musik terbesar yang akan digelar di DOME UMM, Malang. Konser ini akan menampilkan berbagai artis terkenal dari seluruh Indonesia, membawa Anda ke dalam pengalaman musik yang tak terlupakan.</p>
+</section>
+
+<section class="container my-5" id="artis">
+    <h2 class="text-center">Artis yang Tampil</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="artist-card text-center">
+                <img src="assets/img/Juicyluicy.jpg" alt="Juicy Luicy" class="img-fluid rounded-circle">
+                <h4>Juicy Luicy</h4>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="artist-card text-center">
+                <img src="assets/img/bernadya.jpg" alt="Bernadya" class="img-fluid rounded-circle">
+                <h4>Bernadya</h4>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="artist-card text-center">
+                <img src="assets/img/pamungkas.jpg" alt="Pamungkas" class="img-fluid rounded-circle">
+                <h4>Pamungkas</h4>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="artist-card text-center">
+                <img src="assets/img/lastchild.jpg" alt="Last Child" class="img-fluid rounded-circle">
+                <h4>Last Child</h4>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="artist-card text-center">
+                <img src="assets/img/mahalini.jpg" alt="Mahalini Raharja" class="img-fluid rounded-circle">
+                <h4>Mahalini Raharja</h4>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="artist-card text-center">
+                <img src="assets/img/ziva.jpg" alt="Ziva Magnolya" class="img-fluid rounded-circle">
+                <h4>Ziva Magnolya</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container my-5" id="tiket">
+    <h2 class="text-center mb-4">Pembelian Tiket</h2>
+    <p class="text-center">Pilih jenis tiket yang Anda inginkan:</p>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card ticket-card mb-4">
+                <div class="card-body text-center">
+                    <h5 class="card-title">VIP</h5>
+                    <p class="card-text">Rp. 1.000.000</p>
+                    <a href="payment.html?ticket=VIP" class="btn btn-danger">Beli Sekarang</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card ticket-card mb-4">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Festival</h5>
+                    <p class="card-text">Rp. 500.000</p>
+                    <a href="payment.html?ticket=Festival" class="btn btn-danger">Beli Sekarang</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card ticket-card mb-4">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Reguler</h5>
+                    <p class="card-text">Rp. 250.000</p>
+                    <a href="payment.html?ticket=Reguler" class="btn btn-danger">Beli Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container my-5" id="kontak">
+    <h2 class="text-center">Kontak</h2>
+    <p>Untuk informasi lebih lanjut, hubungi kami melalui email di info@konsermusik2024.id atau melalui media sosial kami.</p>
+</section>
+
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p>&copy; 2024 Konser Musik Indonesia. All Rights Reserved.</p>
+        <div>
+            <a href="#" class="text-white">Kebijakan Privasi</a> | 
+            <a href="#" class="text-white">Syarat & Ketentuan</a>
+            <div class="mt-2">
+                <a href="#" class="text-white me-3">Facebook</a>
+                <a href="#" class="text-white me-3">Twitter</a>
+                <a href="#" class="text-white">Instagram</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
